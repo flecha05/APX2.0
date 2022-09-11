@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css"><link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel= "stylesheet" type= "text/css"href='https://fonts.googleapis.com/css?family=Spartan'>
+    <title>APX</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1><img class="logo"src="IMG/apxlogo.jpeg"/></h1>
+            <nav>
+                <ul>
+                    <li class="a"><a href="index.html" class="ca">Sobre Nosotors</a></li>
+                    <li class="a"><a href="productos.html" class="ca">Nuestros Productos</a></li>
+                    <li class="a"><a href="servicios.html" class="ca">Nuestros Servicios</a></li>
+                    <li class="a"><a href="ofertas.html" class="ca">Ofertas</a></li>
+                    <li class="a"><a href="atencion.html" class="ca">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="divisor"></div>
+        <div class="mapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14404.47586202977!2d-57.56682863552089!3d-25.501078661634775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945c547c8a23eb21%3A0x7b8dd9c9bd0df395!2sAv.%20Lomas%20Valentinas%2C%20Villeta%2C%20Paraguay!5e0!3m2!1ses-419!2sar!4v1655151592323!5m2!1ses-419!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></div>
+        <div class="titulo-contactos">Comuniquese con nosotros o <strong>COMPLETE EL FORMULARIO</strong>.</div>
+        <div class="contactenos">
+            <p><span style="font-weight: bold;">Direccion:</span>Lomas Valentinas 1090, Villeta-Paraguay.</p>
+            <p><span style="font-weight: bold;">Cel.:</span>+595985292683</p>
+            <p><span style="font-weight: bold;">Email:</span><a href="mailto:apx@apxmedic.com">apx@apxmedic.com</a></p>
+        </div>
+        <form>
+            <div  class="padron">
+                <label for="nomape">Nombre y Apellido</label>
+                <input type="text" id="nomape" required>
+                <label for="correoe">Correo Electrónico</label>
+                <input type="email" id="correoe" required placeholder="email@dominio.com">
+                <label for="telf">Teléfono</label>
+                <input type="tel" id="telf" required placeholder="(XX) XXX XXXXX">
+                <label for="msjc">Mensaje</label>
+                <textarea name="Mensaje" id="msjc" cols="40" rows="10" required></textarea>
+            </div>
+            <fieldset>
+                <legend>En que horariro le gustaria nos comuniquemos?</legend>
+                <select name="" id="">
+                    <option value="mña">Mañana</option>
+                    <option value="tar">Tarde</option>
+                    <option value="noc">Noche</option>
+                </select>
+            </fieldset>
+                <label class="checkbox" ><input type="checkbox" checked> Le gustaria recibir novedades?</label>
+            </div>
+            <input type="submit" value="Enviar Formulario" class="enviar">
+        </form>
+    </main>
+</body>
+<footer class="footer">
+    <a href="https://www.facebook.com/apxmedic" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/company/80498175/admin/" class="fa fa-linkedin"></a>
+    <p class="copyright">&copy 2022, APX Medic, Paraguay</p>
+</footer>
+</html>

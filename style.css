@@ -1,0 +1,186 @@
+body{
+    font-family: 'Spartan';
+    background: whitesmoke;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+}
+.header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    background: whitesmoke;
+}
+.header h1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 100px;
+    background: 0 0;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+}
+.logo{
+    width: 350px;
+    height: 100px;
+    position: relative;
+}
+nav{
+    position: absolute;
+    left: 350px;
+    top: 0px;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    font-weight: bolder;
+}
+nav li{
+    padding: 40px 18px;
+    background-color:whitesmoke;
+    color:black;
+    width: 217.8px;
+    display: inline-flex;
+}
+nav li:hover{
+    background-color:#fff;
+    color:#0045A6;
+}
+li:active{
+    background-color:#fff;
+    color:#0045A6;
+}
+/*MAIN*/
+/*SOBRE NOSOTROS*/
+.divisor{
+    background: #7ed957;
+    padding: 10px;
+}
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 20s infinite alternate;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 600px;
+}
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+}
+.descripcion{
+    position: relative;
+    text-align: center;
+    margin: 100px 300px;
+    font-size: 30px;
+}
+.descripcion h1{
+    margin: 25px;
+    font-size: 50PX;
+    font-weight: bolder;
+}
+
+/*ATENCION*/
+.mapa{
+    width: 95%;
+    margin: auto;
+}
+.titulo-contactos{
+    margin: 30px;
+    width: 40%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #0045A6;
+}
+.contactenos{
+    position: absolute;
+    right: 0px;
+    top: 550px;
+    width: 650px;
+    margin: 30px;
+    text-align: right;
+    font-size: 20px;
+}
+form{
+    margin: 40px;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0px 20px;
+}
+.padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.enviar{
+    width: 20%;
+    padding: 18px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #0045A6;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: #7ed957;
+    transform: scale(1.2);
+}
+
+
+
+
+/*FOOTER*/
+footer{ 
+    background-color: #7ed957;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+ }
+.fa{
+    margin-top: 5px;
+    padding: 15px;
+    width: auto;
+    text-decoration: none;
+    font-size: 18px;
+}
+.fa-facebook:link,.fa-facebook:visited,.fa-facebook:focus{
+    background: #385998;
+    color: white;
+}
+.fa-linkedin:link,.fa-linkedin:visited,.fa-linkedin:focus{
+    background: #0a66c2;
+    color: white;
+}
+.copyright{
+    margin: 30px;
+    font-size: 12px;
+    text-align: right;
+}
+ /*azul:0045A6  verde 7ed957*/
