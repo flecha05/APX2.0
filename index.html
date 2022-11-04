@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css"><link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel= "stylesheet" type= "text/css"href='https://fonts.googleapis.com/css?family=Spartan'>
-    <title>APX</title>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/diferenciales.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>HOME-APX</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <h1><img class="logo"src="IMG/apxlogo.jpeg"/></h1>
-            <nav>
-                <ul>
-                    <li class="a"><a href="index.html" class="ca">Sobre Nosotors</a></li>
-                    <li class="a"><a href="productos.html" class="ca">Nuestros Productos</a></li>
-                    <li class="a"><a href="servicios.html" class="ca">Nuestros Servicios</a></li>
-                    <li class="a"><a href="ofertas.html" class="ca">Ofertas</a></li>
-                    <li class="a"><a href="atencion.html" class="ca">Contactanos</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="cabecera">
+        <img src="IMG/apxlogo.jpeg" width="350px" height="150px" alt="Logo" class="logo">
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li class="menu-item"><a href="#" id="activo" class="menu-link">Inicio</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Productos</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Servicios</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Contactos</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="divisor"></div>
-       <section>
-         <div class="slider">
-            <ul>
-                <li><img src="IMG/1.jpeg" ></li>
-                <li><img src="IMG/2.jpeg" ></li>
-                <li><img src="IMG/3.jpeg" ></li>
+        <section class="presentacion conteiner">
+            <h1 class="presentacion__titulo">Somos APX Medic</h1>
+            <p class="presentacion__texto">Una empresa enfocada en proveer equipamiento medico de la mejor calidad. Acompañandolo en todo momento, brindando asesoramiento y servicio de instalacion.</p>
+        </section>
+        <section class="diferenciales container">
+            <ul class="diferenciales__lista">
+                <li class="diferenciales__item diferenciales__item-reloj">
+                    <h2 class="item__titulo">Tiempo</h2>
+                    <p class="item__texto">¡El tiempo es importante! Trabajamos en ritmo acelerado, para atender los plazos rigurosamente.</p>
+                </li>
+                <li class="diferenciales__item diferenciales__item-dinero">
+                    <h2 class="item__titulo">Enfoque</h2>
+                    <p class="item__texto">Focamos en el pequeño y medio emprendedor, ofrecemos servicios de calidad con precios accesibles.</p>
+                </li>
+                <li class="diferenciales__item diferenciales__item-quimica">
+                    <h2 class="item__titulo">Especialistas</h2>
+                    <p class="item__texto">Equipo especializada, con experiencia de mercado. Testamos todos los productos antes del lanzamiento.</p>
+                </li>
             </ul>
-         </div>
-         <div class="descripcion">
-             <h1>APX Medic</h1>
-             <p>
-                 Con sede en la Republica del Paragauay nos proponemos a proveer productos de ultima generacion con
-                 calidad de primer nivel y todo el proceso de servicios para clinicas, hospitlaes, sanatorios y
-                 consultorios dentro de toda Sudamerica
-             </p>
-         </div>
-       </section>
-
+        </section>
     </main>
+    <footer class="footer">
+        <ul class="footer__social">
+            <li><a href="https://www.facebook.com/apxmedic" class="footer__midia"><img class="img__footer"src="IMG/facebook.png" alt="icono facebook"></a></li>
+            <li><a href="https://www.linkedin.com/company/80498175/admin/" class="footer__midia"><img class="img__footer" src="IMG/linkedin.png" alt="icono linkedin"></a></li>
+        </ul>
+        <p class="copyright">&copy 2022, APX Medic, Paraguay</p>
+    </footer>
 </body>
-<footer class="footer">
-    <a href="https://www.facebook.com/apxmedic" class="fa fa-facebook"></a>
-    <a href="https://www.linkedin.com/company/80498175/admin/" class="fa fa-linkedin"></a>
-    <p class="copyright">&copy 2022, APX Medic, Paraguay</p>
-</footer>
 </html>
